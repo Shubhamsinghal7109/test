@@ -27,8 +27,8 @@ if choice=='Video':
         vid = cv2.VideoCapture(tfile.name)
         while vid.isOpened():
             ret, frame = vid.read()  
-            faces = face_cascade.detectMultiScale(frame, 1.3, 4)
-            for (x, y, w, h) in faces:
-                cv2.rectangle(frame, (x, y), (x + w, y + h), (255, 0, 0), 2)
+            #faces = face_cascade.detectMultiScale(frame, 1.3, 4)
+            #for (x, y, w, h) in faces:
+                #cv2.rectangle(frame, (x, y), (x + w, y + h), (255, 0, 0), 2)
             myimage.image(frame,channels='BGR')
 
