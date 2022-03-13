@@ -1,3 +1,2 @@
 streamlit
-tempfile
 opencv-python-headless
